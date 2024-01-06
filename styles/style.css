@@ -103,3 +103,91 @@ body {
     gap: 8px;
 
 }
+
+/* plans section */
+.plans-head{
+    color: #151414;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.plans-container{
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+.web, .js, .smoke, .ecommerce{
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF8F3;
+    /* box-shadow: 0px 6px 50px 0px; */
+}
+.web-title{
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.js-title{
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.smoke-title{
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.ecommerce-title{
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.web-para{
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.js-para{
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.smoke-para{
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.ecommerce-para{
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
