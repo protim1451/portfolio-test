@@ -11,9 +11,8 @@ body {
     height: 808px;
     flex-shrink: 0;
     background-image: url('../images/banner/banner3.png');
-
     /* display: flex; */
-    background-position:top;
+    /* background-position:top; */
     background-repeat: no-repeat;
 }
 .banner-title{
@@ -45,7 +44,7 @@ body {
     font-weight: 600;
     line-height: normal;
     margin-left: 420px;
-    padding: 3px;
+    padding: 3px; 
 
 }
 .banner-content{
@@ -59,4 +58,48 @@ body {
     margin-top: 20px;
     padding-left: 70px;
     margin-bottom: 20px;
+}
+
+/* Main style */
+.fail{
+    background: #FFF;
+    width: 1600px;
+    display: flex;
+    gap: 30px;
+}
+.fail > img{
+    padding-left: 277px;
+    padding-top: 140px;
+    
+}
+.fail-header{
+    padding-left: 134px;
+    padding-top: 370px;
+    padding-right: 430px;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin-bottom: 24px;
+}
+.fail-para{
+    color: #444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    padding-left: 134px;
+    padding-right: 322px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+.fail-list{
+    color:#444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    padding-left: 140px;
+    gap: 8px;
+
 }
