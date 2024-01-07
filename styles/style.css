@@ -238,6 +238,8 @@ footer{
     width: 1600px;
     height: 577px;
     border-radius: 3px;
+    display: flex;
+    /* justify-content: space-between; */
 }
 .section-title{
     color: #F8F8F8;
@@ -283,3 +285,21 @@ footer{
     padding-left: 230px;
     gap: 5px;
 }
+.section-title2{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 130px;
+    padding-right: 130px; 
+}
+
+.footer-input{
+    /* border-radius: 8px;
+    border: 1px solid #FFF;
+    width: 325px;
+    height: 64px;
+    flex-shrink: 0;
+} */
